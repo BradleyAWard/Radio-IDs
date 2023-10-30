@@ -12,7 +12,7 @@ from cycler import cycler
 def rcparams():
 
     # Set color cycle:
-    matplotlib.rcParams['axes.prop_cycle'] =  cycler('color', ['k', 'r', 'b', 'g', 'y', 'magenta', 'orange'])
+    matplotlib.rcParams['axes.prop_cycle'] =  cycler('color', ['k', 'tab:red', 'tab:blue', 'tab:green', 'tab:orange', 'y', 'magenta'])
     matplotlib.rcParams['figure.facecolor'] = 'white'
 
     # Set x axis
